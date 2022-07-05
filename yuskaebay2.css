@@ -59,7 +59,8 @@ a:hover							            								{ color:#F72020; }
 /* ---------------------------------------- 
 eBay Header
 ---------------------------------------- */
-#nt-head-wrap-01													{ padding:10px 0; background:#777;
+#nt-head-wrap-01 { 
+	padding:10px 0; background:#FEBD16;
 background:-moz-linear-gradient(-45deg, #777 0%, #FAFAFA 50%, #777 100%);
 background:-webkit-linear-gradient(-45deg, #777 0%,#FAFAFA 50%,#777 100%);
 background:linear-gradient(135deg, #777 0%,#FAFAFA 50%,#777 100%);
