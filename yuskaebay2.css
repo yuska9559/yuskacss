@@ -73,9 +73,7 @@ filter:progid:DXImageTransform.Microsoft.gradieyuska( startColorstr='#777', endC
 	border-width:0; }
 		
 #yuska-head-logo
-{ height: 100px;
-  width: 100px;
-  z-index: 9999; } 
+{ margin : 10px; 10px; } 
 /* logo */
 @media screen and (max-width:1042px){ #yuska-head-logo { 
   margin :15px auto; } }
