@@ -73,9 +73,9 @@ filter:progid:DXImageTransform.Microsoft.gradieyuska( startColorstr='#777', endC
 	border-width:0; }
 		
 #yuska-head-logo
-{ margin:15px auto; } 
+{ margin:15px 15px; } 
 /* logo */
-@media screen and (max-width:1042px){ #yuska-head-logo { margin:15px auto; } }
+@media screen and (max-width:1042px){ #yuska-head-logo { margin:15px 15px; } }
 
 #yuska-head-tnav															{ height:20px; margin-top:26px; float:right; text-align:right; } /* top nav menu */
 #yuska-head-tnav a														{ color:#BBB; foyuska:400 14px/20px "Open Sans", sans-serif; text-transform:uppercase; display:inline-block; padding:0 15px; }
