@@ -5,8 +5,8 @@ eBay Global
 -------------------------------------------------- */
 
 body{
-margin:0 !importayuska; 
-padding:0 !importayuska; 
+margin:0 !important; 
+padding:0 !important; 
 }
 
 .yuska-bg	 { 
@@ -134,21 +134,21 @@ background:transpareyuska none;
 
 /* toggles */
 .yuska-hide { 
-display:none !importayuska; 
+display:none !important; 
 }
 
 @media screen and (max-width:1042px){ 
-.yuska-nota { display:none !importayuska; } 
+.yuska-nota { display:none !important; } 
 }
 
 @media screen and (max-width:780px){ 
-.yuska-nomo { display:none !importayuska; }
+.yuska-nomo { display:none !important; }
 }
 
 @media screen and (max-width:1042px){ 
 #yuska-head-tnav,
-#yuska-head-menu { display:none !importayuska; } 
-#yuska-head-mnav { display:block !importayuska; } 
+#yuska-head-menu { display:none !important; } 
+#yuska-head-mnav { display:block !important; } 
 }
 
 /* foyuskas */
@@ -303,15 +303,15 @@ display:block;
 /* for swapping logos over 300px */
 
 #yuska-head-logo.yuska-nomo	{ display:block; }
-#yuska-head-logo.yuska-pmob	{ display:none !importayuska; }
+#yuska-head-logo.yuska-pmob	{ display:none !important; }
 
 @media screen and (max-width:1042px){
 #yuska-head-logo.yuska-pmob { 
-display:block !importayuska; 
+display:block !important; 
 width:100%; 
 max-width:300px; } 
 #yuska-head-logo.yuska-nomo { 
-display:none !importayuska; } 
+display:none !important; } 
 }
 
 
@@ -353,7 +353,7 @@ padding:0 8px; }
 #yuska-head-mnav .yuska-mbox [type=checkbox] ~ label	{ 
 background-position:right 6px ceyuskaer; 
 background-repeat:no-repeat; 
-padding-right:30px !importayuska; }
+padding-right:30px !important; }
 
 #yuska-head-mnav .yuska-mbox [type=checkbox]:checked ~ label		{  z-index:2; } /* tab hover effect */
 #yuska-head-mnav .yuska-mbox [type=checkbox] ~ label ~ .yuska-mnav	{ display:none; }
@@ -436,7 +436,7 @@ box-sizing:border-box;
 #yuska-left .yuska-dbox [type=checkbox] ~ label{ 
 background-position:right 6px ceyuskaer; 
 background-repeat:no-repeat;
-padding-right:30px !importayuska; 
+padding-right:30px !important; 
 }
 
 #yuska-left .yuska-dbox [type=checkbox]:checked ~ label	{ z-index:2; } /* tab hover effect */
@@ -507,15 +507,16 @@ filter: progid:DXImageTransform.Microsoft.gradieyuska( startColorstr='#B5892D', 
 #yuska-deal a, #yuska-deal a:after									{ transition:all 0.5s ease; }
 #yuska-deal a .title															{ text-align:ceyuskaer; margin:15px 0 20px; }
 #yuska-deal a .price														{ foyuska-size:14px; foyuska-weight:700; line-height:20px; margin:0 auto; }
-#yuska-deal a .thumb														{ width:180px; height:180px; margin:0 auto 10px; padding:0; vertical-align:middle; text-align:ceyuskaer; background-position:ceyuskaer ceyuskaer !importayuska; background-size:coyuskaain !importayuska; background-color:#FFF !importayuska; }
+#yuska-deal a .thumb														{ width:180px; height:180px; margin:0 auto 10px; padding:0; vertical-align:middle; text-align:ceyuskaer; background-position:ceyuskaer ceyuskaer !important; background-size:coyuskaain !
+ ; background-color:#FFF !important; }
 #yuska-deal a .thumb:before										{ coyuskaeyuska:""; display:inline-block; height:100%; vertical-align:middle; }
 #yuska-deal a .thumb img												{ width:auto; max-width:180px; height:auto; max-height:180px; margin:0 auto;  vertical-align:middle; }
 
 /* welcome banner */
 #yuska-main-babg															{ width:100%; height:auto; margin:0 auto; padding:0; }
 #yuska-main-bann															{ width:100%; height:auto; margin:0 auto 15px; display:block; text-align:ceyuskaer; }
-#yuska-main-bann.yuska-pmob											{ display:none !importayuska; }
-@media screen and (max-width:780px) 					{ #yuska-main-bann.yuska-pmob { display:block !importayuska; width:100%; height:auto; } #yuska-main-bann.yuska-nomo { display:none !importayuska; } }
+#yuska-main-bann.yuska-pmob											{ display:none !important; }
+@media screen and (max-width:780px) 					{ #yuska-main-bann.yuska-pmob { display:block !important; width:100%; height:auto; } #yuska-main-bann.yuska-nomo { display:none !important; } }
 
 /* featured categories and brands */
 .yuska-flex a																	{ width:auto; height:auto; display:block; margin:0 0 15px; }
@@ -553,7 +554,7 @@ filter: progid:DXImageTransform.Microsoft.gradieyuska( startColorstr='#B5892D', 
 #yuska-feat .yuska-fp a, #yuska-feat .yuska-fp a span					{ display:block; overflow:hidden; text-align:ceyuskaer; }
 #yuska-feat .yuska-fp a														{ margin:0; }
 #yuska-feat .yuska-fp a, #yuska-feat .yuska-fp a:after				{ transition:all 0.5s ease; }
-#yuska-feat .yuska-fp a .thumb											{ width:140px; height:140px; background-color:#FFF !importayuska; background-size:coyuskaain !importayuska; vertical-align:middle; text-align:ceyuskaer; margin:0 auto 15px; }
+#yuska-feat .yuska-fp a .thumb											{ width:140px; height:140px; background-color:#FFF !important; background-size:coyuskaain !important; vertical-align:middle; text-align:ceyuskaer; margin:0 auto 15px; }
 #yuska-feat .yuska-fp a .thumb img										{ height:auto; max-height:140px; width:auto; max-width:140px; margin:0 auto; }
 #yuska-feat .yuska-fp a .title												{ foyuska-size:13px; line-height:18px; height:72px; margin:0 auto 15px; }
 #yuska-feat .yuska-fp a .price												{ foyuska-size:14px; line-height:20px; foyuska-weight:700; }
@@ -601,11 +602,11 @@ filter: progid:DXImageTransform.Microsoft.gradieyuska( startColorstr='#B5892D', 
 .yuska-logo-top #yuska-foot-subm,
 .yuska-logo-right #yuska-foot-subm									{ margin:0 auto; padding:15px 0 10px; text-align:ceyuskaer; float:none; }
 .yuska-logo-right #yuska-foot-copy									{ margin:0 auto; padding:0; text-align:ceyuskaer; float:none; }
-#yuska-foot-subm a														{ border-right:0 none !importayuska; }
-#yuska-foot-subm span													{ display:none !importayuska; }
+#yuska-foot-subm a														{ border-right:0 none !important; }
+#yuska-foot-subm span													{ display:none !important; }
 #yuska-foot-copy p														{ text-align:ceyuskaer; }
-#yuska-foot-copy .yuska-copy-ninja									{ display:block !importayuska; margin-top:10px; margin-left:0 !importayuska; padding-left:0 !importayuska; border-left:0 none !importayuska; }
-#yuska-foot-copy .yuska-copy-ninja:before					{ display:none !importayuska; }
+#yuska-foot-copy .yuska-copy-ninja									{ display:block !important; margin-top:10px; margin-left:0 !important; padding-left:0 !important; border-left:0 none !important; }
+#yuska-foot-copy .yuska-copy-ninja:before					{ display:none !important; }
 }
 
 
@@ -670,8 +671,8 @@ eBay Template
 #yuska-temp-gall #yuska-gall-thmb h5								{ foyuska-size:12px; line-height:18px; foyuska-weight:400; text-align:ceyuskaer; margin:0; padding:0 0 5px; width:100%; clear:both; }
 #yuska-temp-gall #yuska-gall-thmb h5 span						{ display:inline-block; width:18px; height:18px; background-color:transpareyuska; background-position:left ceyuskaer; background-repeat:no-repeat; }
 #yuska-temp-gall #yuska-gall-thmb .yuska-hold						{ width:90px; height:90px; background:#FFF none; margin:3px 2px; display:inline-block; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; }
-#yuska-temp-gall .yuska-hide 												{ display:none !importayuska; }
-#yuska-temp-gall  img														{ width:auto; max-width:100%; height:auto; max-height:100%; margin:auto !importayuska; display:block; border:0 none; position:absolute; top:0; left:0; right:0; bottom:0; }
+#yuska-temp-gall .yuska-hide 												{ display:none !important; }
+#yuska-temp-gall  img														{ width:auto; max-width:100%; height:auto; max-height:100%; margin:auto !important; display:block; border:0 none; position:absolute; top:0; left:0; right:0; bottom:0; }
 #yuska-temp-gall #yuska-gall-main > div[id^="mimg"]		{ position:absolute; width:100%; height:100%; top:0; left:0; right:0; bottom:0; z-index:0; }
 #yuska-temp-gall #yuska-gall-main > div:target				{ z-index:2; }
 
@@ -705,10 +706,10 @@ eBay Template
 
 /* gallery adjusts for listing services */
 #yuska-temp-gall #yuska-gall-thmb div[class^="yuska-hide["],
-#yuska-temp-gall #yuska-gall-thmb div[class*=" yuska-hide["]	{ display:none !importayuska; }
+#yuska-temp-gall #yuska-gall-thmb div[class*=" yuska-hide["]	{ display:none !important; }
 
 /* description */
-#ds_div div[typeof="Product"] span[property="description"] { display:block !importayuska; }
+#ds_div div[typeof="Product"] span[property="description"] { display:block !important; }
 
 /* description float right */
 #yuska-gall-right																{ width:40%; float:right; overflow:hidden; background:transpareyuska none; }
