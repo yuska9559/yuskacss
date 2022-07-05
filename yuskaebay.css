@@ -48,12 +48,12 @@ width:100%;
 padding:15px 0 10px; 
 }
 
-.nt-content-width { 
+.yuska-content-width { 
 width:100%; 
 margin:0 auto; 
 }
 
-.nt-content, .nt-content-width{ 
+.nt-content, .yuska-content-width{ 
 max-width:1338px; 
 }
 
