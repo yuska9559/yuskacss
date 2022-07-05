@@ -2,16 +2,6 @@
 
 
 /* ---------------------------------------- 
-Title Font Family:	"Big Shoulders Text", sans-serif
-Main Font Family:	"Open Sans", sans-serif
-Title Text Color:		#333
-Main Text Color:	#010101
-Accent Color:			#F72020
-Border Color:			#CCC
-Light BG Color:		#EEE
----------------------------------------- */
-
-/* ---------------------------------------- 
 eBay Global
 ---------------------------------------- */
 .nt-bg																			{ background:#FFF none; padding:0; border-color:#CCC !important; }
@@ -69,12 +59,18 @@ a:hover							            								{ color:#F72020; }
 /* ---------------------------------------- 
 eBay Header
 ---------------------------------------- */
-#nt-head-wrap-01													{ padding:10px 0; background:#777;
+
+#yuska-head-wrap-01{ padding:10px 0; background:#FEBD16;
 background:-moz-linear-gradient(-45deg, #777 0%, #FAFAFA 50%, #777 100%);
 background:-webkit-linear-gradient(-45deg, #777 0%,#FAFAFA 50%,#777 100%);
 background:linear-gradient(135deg, #777 0%,#FAFAFA 50%,#777 100%);
-filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#777', endColorstr='#777',GradientType=1 ); }
-#nt-head-wrap-02													{ background:#010101 none; border:1px solid #CCC; border-width:0; }
+filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#777', endColorstr='#777',GradientType=1 ); 
+}
+
+#yuska-head-wrap-02 { 
+	background:#010101 none; 
+	border:1px solid #CCC; 
+	border-width:0; }
 		
 #nt-head-logo															{ margin:15px auto; } /* logo */
 @media screen and (max-width:1042px)					{ #nt-head-logo { margin:15px auto; } }
