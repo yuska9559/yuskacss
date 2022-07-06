@@ -4,55 +4,55 @@
 /* ---------------------------------------- 
 eBay Global
 ---------------------------------------- */
-.nt-bg																			{ background:#FFF none; padding:0; border-color:#CCC !important; }
+.yuska-bg																			{ background:#FFF none; padding:0; border-color:#CCC !important; }
 
 /* fonts */
-.nt-bg *                                     									{ font-family:"Open Sans", sans-serif; }
+.yuska-bg *                                     									{ font-family:"Open Sans", sans-serif; }
 p, a, li, table, form select											{ font-size:14px; line-height:20px; color:#010101; }
 a:link, a:visited, a:active										{ color:#010101; }
 a:hover							            								{ color:white; }
-#nt-main h1																{ color:#333; font-size:20px; line-height:25px; font-weight:700; text-align:center; margin:0; padding:0 0 15px; }
-#nt-main #nt-main-desc h1										{ text-align:left; padding-top:10px; }
-#nt-main h1#nt-item-title										{ background:#FFF none; border:1px solid #CCC; margin:0 0 10px; padding:8px 15px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;  }
-#nt-main h5		            											{ color:#F72020; font-size:15px; line-height:20px; font-weight:700; text-align:left; margin:0; padding:5px 0 8px; }
+#yuska-main h1																{ color:#333; font-size:20px; line-height:25px; font-weight:700; text-align:center; margin:0; padding:0 0 15px; }
+#yuska-main #yuska-main-desc h1										{ text-align:left; padding-top:10px; }
+#yuska-main h1#yuska-item-title										{ background:#FFF none; border:1px solid #CCC; margin:0 0 10px; padding:8px 15px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;  }
+#yuska-main h5		            											{ color:#F72020; font-size:15px; line-height:20px; font-weight:700; text-align:left; margin:0; padding:5px 0 8px; }
 
  /* title bars */
-.nt-tbar, .nt-tbar a, .nt-tbar span,
-.nt-tbar .nt-tins														{ color:#000000; font-family:"Big Shoulders Text", sans-serif; font-size:20px; line-height:24px; font-weight:700; letter-spacing:0.05em; text-transform:uppercase; }
-#nt-main .nt-tbar .nt-tins										{ text-align:center; } /* right column */
-.nt-tbar																		{ padding:8px 12px; background:#FEBD17; border:1px solid #000000; border-width:0 0 3px; }
-.nt-tbar.nt-alt, .nt-tbar.nt-alt .nt-tins					{ color:#000000; }
-.nt-tbar.nt-alt															{ background-color:#FEBD17; border-color:#010101; } /*alternates */
-.nt-tbar.nt-alt2{ background-color:#777; border-color:#010101; } /*alternates */
+.yuska-tbar, .yuska-tbar a, .yuska-tbar span,
+.yuska-tbar .yuska-tins														{ color:#000000; font-family:"Big Shoulders Text", sans-serif; font-size:20px; line-height:24px; font-weight:700; letter-spacing:0.05em; text-transform:uppercase; }
+#yuska-main .yuska-tbar .yuska-tins										{ text-align:center; } /* right column */
+.yuska-tbar																		{ padding:8px 12px; background:#FEBD17; border:1px solid #000000; border-width:0 0 3px; }
+.yuska-tbar.yuska-alt, .yuska-tbar.yuska-alt .yuska-tins					{ color:#000000; }
+.yuska-tbar.yuska-alt															{ background-color:#FEBD17; border-color:#010101; } /*alternates */
+.yuska-tbar.yuska-alt2{ background-color:#777; border-color:#010101; } /*alternates */
 
 /* accordion bars */
-[type=radio] ~ .nt-tbar .nt-tins								{ color:#000000; }
-[type=radio]:checked ~ .nt-tbar .nt-tins				{ color:#FFF; }
-[type=radio] ~ .nt-tbar												{ background-color:#febd17; border-color:#FFF; }
-[type=radio]:checked ~ .nt-tbar							{ background-color:#000000; border-color:#010101; }
-[type=radio] ~ .nt-tbar:before								{ content:url(images/nt-icon-plus.png); float:right; position:relative; top:2px; }
-[type=radio]:checked ~ .nt-tbar:before				{ content:url(images/nt-icon-mins.png); }
+[type=radio] ~ .yuska-tbar .yuska-tins								{ color:#000000; }
+[type=radio]:checked ~ .yuska-tbar .yuska-tins				{ color:#FFF; }
+[type=radio] ~ .yuska-tbar												{ background-color:#febd17; border-color:#FFF; }
+[type=radio]:checked ~ .yuska-tbar							{ background-color:#000000; border-color:#010101; }
+[type=radio] ~ .yuska-tbar:before								{ content:url(images/yuska-icon-plus.png); float:right; position:relative; top:2px; }
+[type=radio]:checked ~ .yuska-tbar:before				{ content:url(images/yuska-icon-mins.png); }
 
 /* text boxes */
-.nt-tbox																		{ background:#FFF none; } /* text box with title bar */
-.nt-gbox																		{ background:#EEE none; } /* gallery box no title bar */
-.nt-tbox, .nt-gbox														{ border:1px solid #CCC; }
-.nt-gbox #nt-main-desc .nt-tins.nt-text				{ background-color:#FFF; border:1px solid #CCC; border-width:0 1px 1px; } /* inset description box */
+.yuska-tbox																		{ background:#FFF none; } /* text box with title bar */
+.yuska-gbox																		{ background:#EEE none; } /* gallery box no title bar */
+.yuska-tbox, .yuska-gbox														{ border:1px solid #CCC; }
+.yuska-gbox #yuska-main-desc .yuska-tins.yuska-text				{ background-color:#FFF; border:1px solid #CCC; border-width:0 1px 1px; } /* inset description box */
 /* underline only */
-.nt-tbox, #nt-deal-fbox											{ border-width:0 0 1px; }
-.nt-gbox, #nt-main-tabs .nt-ttab .nt-tbox				{ border-width:0; }
-#nt-main-tabs .nt-ttab:last-child .nt-tbox			{ border-width:0 0 1px; }
+.yuska-tbox, #yuska-deal-fbox											{ border-width:0 0 1px; }
+.yuska-gbox, #yuska-main-tabs .yuska-ttab .yuska-tbox				{ border-width:0; }
+#yuska-main-tabs .yuska-ttab:last-child .yuska-tbox			{ border-width:0 0 1px; }
 
 /* promo banners */
-.nt-prom																		{ border:0 none; } /* graphic promo banners */
-.nt-proh.nt-prom, .nt-prom.nt-nobo						{ border:0 none; -moz-border-radius:0; border-radius:0; }
+.yuska-prom																		{ border:0 none; } /* graphic promo banners */
+.yuska-proh.yuska-prom, .yuska-prom.yuska-nobo						{ border:0 none; -moz-border-radius:0; border-radius:0; }
 
 /* buttons */
-.nt-bttn, a.nt-bttn, #nt-deal a:after,
-#nt-feat .nt-fp a:after												{ color:#FFF; background:#F72020 none; border:0 none; font-size:16px; font-weight:700; font-family:"Big Shoulders Text", sans-serif; letter-spacing:0.05em; height:40px; line-height:40px; padding:0 15px; }
-.nt-bttn:hover, a.nt-bttn:hover,
-#nt-deal a:hover:after,
-#nt-feat .nt-fp a:hover:after									{ color:#FFF; background-color:#333; }
+.yuska-bttn, a.yuska-bttn, #yuska-deal a:after,
+#yuska-feat .yuska-fp a:after												{ color:#FFF; background:#F72020 none; border:0 none; font-size:16px; font-weight:700; font-family:"Big Shoulders Text", sans-serif; letter-spacing:0.05em; height:40px; line-height:40px; padding:0 15px; }
+.yuska-bttn:hover, a.yuska-bttn:hover,
+#yuska-deal a:hover:after,
+#yuska-feat .yuska-fp a:hover:after									{ color:#FFF; background-color:#333; }
 
 
 
@@ -60,7 +60,7 @@ a:hover							            								{ color:white; }
 eBay Header
 ---------------------------------------- */
 
-#nt-head-wrap-01 { 
+#yuska-head-wrap-01 { 
 padding:10px 0; 
 /*
 background:#FEBD16;
@@ -69,85 +69,85 @@ background:-webkit-linear-gradient(-45deg, #FEBD16 0%,#FAFAFA 50%,#FEBD16 100%);
 background:linear-gradient(135deg, #FEBD16 0%,#FAFAFA 50%, #FEBD16 100%);
 filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#FEBD16', endColorstr='#FEBD16',GradientType=1 )*/; }
 
-#nt-head-wrap-02 { 
+#yuska-head-wrap-02 { 
 background:#010101 none; 
 border:5px solid #FEBD16; 
 border-width:0; }
 		
-#nt-head-logo															{ margin:15px auto; } /* logo */
-@media screen and (max-width:1042px)					{ #nt-head-logo { margin:15px auto; } }
+#yuska-head-logo															{ margin:15px auto; } /* logo */
+@media screen and (max-width:1042px)					{ #yuska-head-logo { margin:15px auto; } }
 
-#nt-head-tnav															{ height:20px; margin-top:37px; float:right; text-align:right; } /* top nav menu */
-#nt-head-tnav a														{ color:#FFF; font:400 14px/20px "Helvetica", sans-serif; font-weight: bolder; text-transform:uppercase; display:inline-block; padding:0 15px; }
-#nt-head-tnav a:hover											{ color:#FFF;  text-decoration:underline; }
-#nt-head-tnav a:first-child										{ padding-left:0; }
-#nt-head-tnav a:last-child										{ padding-right:0; }
-#nt-head-tnav a i.fa													{ color:#BBB; font-size:16px; line-height:20px; font-weight:normal; display:inline-block; margin-top:-4px; padding-right:10px; vertical-align:middle; }
+#yuska-head-tnav															{ height:20px; margin-top:37px; float:right; text-align:right; } /* top nav menu */
+#yuska-head-tnav a														{ color:#FFF; font:400 14px/20px "Helvetica", sans-serif; font-weight: bolder; text-transform:uppercase; display:inline-block; padding:0 15px; }
+#yuska-head-tnav a:hover											{ color:#FFF;  text-decoration:underline; }
+#yuska-head-tnav a:first-child										{ padding-left:0; }
+#yuska-head-tnav a:last-child										{ padding-right:0; }
+#yuska-head-tnav a i.fa													{ color:#BBB; font-size:16px; line-height:20px; font-weight:normal; display:inline-block; margin-top:-4px; padding-right:10px; vertical-align:middle; }
 
-#nt-head-mnav															{ margin:0 auto 15px; } /* mobile dropdown menu */
-#nt-head-mnav .nt-mbox label									{ padding:0 8px; }
-#nt-head-mnav .nt-mbox [type=checkbox] ~ label						{ background-image:url(images/nt-icon-open.png); }
-#nt-head-mnav .nt-mbox [type=checkbox]:checked ~ label		{ background-image:url(images/nt-icon-shut.png); }
+#yuska-head-mnav															{ margin:0 auto 15px; } /* mobile dropdown menu */
+#yuska-head-mnav .yuska-mbox label									{ padding:0 8px; }
+#yuska-head-mnav .yuska-mbox [type=checkbox] ~ label						{ background-image:url(images/yuska-icon-open.png); }
+#yuska-head-mnav .yuska-mbox [type=checkbox]:checked ~ label		{ background-image:url(images/yuska-icon-shut.png); }
 /* background colors */
-#nt-head-mnav .nt-mbox label,
-#nt-head-mnav .nt-mnav											{ background-color:#FFF; }
+#yuska-head-mnav .yuska-mbox label,
+#yuska-head-mnav .yuska-mnav											{ background-color:#FFF; }
 /* font styling */
-#nt-head-mnav .nt-mbox label									{ color:#010101; font:400 14px/30px "Helvetica", sans-serif; }
-#nt-head-mnav .nt-mnav h4									{ color:#000000; font:700 14px/30px "Helvetica", sans-serif; padding:0 8px }
-#nt-head-mnav .nt-mnav ul li a								{ color:#1A1A1A; font:400 13px/22px "Open Sans", sans-serif; padding:2px 8px; }
-#nt-head-mnav .nt-mnav ul li a:hover					{ color:#000000; font-weight: bolder; }
+#yuska-head-mnav .yuska-mbox label									{ color:#010101; font:400 14px/30px "Helvetica", sans-serif; }
+#yuska-head-mnav .yuska-mnav h4									{ color:#000000; font:700 14px/30px "Helvetica", sans-serif; padding:0 8px }
+#yuska-head-mnav .yuska-mnav ul li a								{ color:#1A1A1A; font:400 13px/22px "Open Sans", sans-serif; padding:2px 8px; }
+#yuska-head-mnav .yuska-mnav ul li a:hover					{ color:#000000; font-weight: bolder; }
 /* add icons */
-#nt-head-mnav .nt-mnav ul li a								{ background-image:url(images/nt-icon-lev1.png); background-position:8px 7px; background-repeat:no-repeat; padding-left:22px; }
-#nt-head-mnav .nt-mnav ul li a:hover					{ background-image:url(images/nt-icon-lev1h.png); background-color:#EEE; }
+#yuska-head-mnav .yuska-mnav ul li a								{ background-image:url(images/yuska-icon-lev1.png); background-position:8px 7px; background-repeat:no-repeat; padding-left:22px; }
+#yuska-head-mnav .yuska-mnav ul li a:hover					{ background-image:url(images/yuska-icon-lev1h.png); background-color:#EEE; }
 /* add box borders */
-#nt-head-mnav .nt-mbox											{ border:1px solid #CCC; border-width:1px; }
+#yuska-head-mnav .yuska-mbox											{ border:1px solid #CCC; border-width:1px; }
 /* add dynamic */
-#nt-head-mnav .nt-mnav ul.lev1 li a:after				{ color:#010101 !important; font-size:13px !important; line-height:22px !important; }
-#nt-head-mnav .nt-mnav ul.lev1 li a:hover:after	{ color:#0085CF !important; }
+#yuska-head-mnav .yuska-mnav ul.lev1 li a:after				{ color:#010101 !important; font-size:13px !important; line-height:22px !important; }
+#yuska-head-mnav .yuska-mnav ul.lev1 li a:hover:after	{ color:#0085CF !important; }
 
 
 /* ---------------------------------------- 
 eBay Left Panel
 ---------------------------------------- */
 /* categories nav */
-#nt-left .lev1 li															{ padding-top:2px; }
-#nt-left .lev1 li a														{ 
+#yuska-left .lev1 li															{ padding-top:2px; }
+#yuska-left .lev1 li a														{ 
     color:#010101; font-size:14px; line-height:17px; font-weight:600; text-transform:uppercase; 
-    background:#FAF9F6 url(images/nt-icon-lev1.png) 10px 10px no-repeat; padding:7px 10px 7px 24px; 
+    background:#FAF9F6 url(images/yuska-icon-lev1.png) 10px 10px no-repeat; padding:7px 10px 7px 24px; 
     }
     
-#nt-left .lev1 li a:hover											{ color: #010101; font-weight: bolder; background-color:#FFF; background-image:url(images/nt-icon-lev1h.png); }
-#nt-left .lev1 li a:after												{ color:#010101 !important; font-size:14px !important; line-height:17px !important; padding:7px 10px 7px 24px; display:block; }
-#nt-left .lev1 li a:hover:after									{ color:#F72020 !important; }
+#yuska-left .lev1 li a:hover											{ color: #010101; font-weight: bolder; background-color:#FFF; background-image:url(images/yuska-icon-lev1h.png); }
+#yuska-left .lev1 li a:after												{ color:#010101 !important; font-size:14px !important; line-height:17px !important; padding:7px 10px 7px 24px; display:block; }
+#yuska-left .lev1 li a:hover:after									{ color:#F72020 !important; }
 
  /* newsletter text box */
-#nt-side-news p														{ line-height:18px; margin:0 0 4px; }
-#nt-side-news a.nt-bttn											{ display:block; float:right; }
-@media screen and (max-width:1299px)					{ #nt-side-news a.nt-bttn { display:inline-block; float:none; } }
+#yuska-side-news p														{ line-height:18px; margin:0 0 4px; }
+#yuska-side-news a.yuska-bttn											{ display:block; float:right; }
+@media screen and (max-width:1299px)					{ #yuska-side-news a.yuska-bttn { display:inline-block; float:none; } }
 
 
 /* ---------------------------------------- 
 eBay Listing Template
 ---------------------------------------- */
 /* product image gallery */
-#nt-temp-gall #nt-gall-main										{ border:1px solid #CCC; }
-#nt-temp-gall #nt-gall-main img								{ border:10px solid #FFF; }
-#nt-temp-gall #nt-gall-thmb h5								{ color:#010101; font-weight: bolder; }
-#nt-temp-gall #nt-gall-thmb .nt-hold						{ border:1px solid #CCC; }
-#nt-temp-gall #nt-gall-thmb .nt-hold:hover			{ border:1px solid #febd17; }
-#nt-temp-gall #nt-gall-thmb h5 span						{ background-image:url(images/nt-icon-gall.png) }
+#yuska-temp-gall #yuska-gall-main										{ border:1px solid #CCC; }
+#yuska-temp-gall #yuska-gall-main img								{ border:10px solid #FFF; }
+#yuska-temp-gall #yuska-gall-thmb h5								{ color:#010101; font-weight: bolder; }
+#yuska-temp-gall #yuska-gall-thmb .yuska-hold						{ border:1px solid #CCC; }
+#yuska-temp-gall #yuska-gall-thmb .yuska-hold:hover			{ border:1px solid #febd17; }
+#yuska-temp-gall #yuska-gall-thmb h5 span						{ background-image:url(images/yuska-icon-gall.png) }
 
  /* product specifications table */
-#nt-main-spec															{ width:40%; float:right; margin:0 0 0 20px; }
-#nt-gall-right #nt-main-spec									{ width:100%; margin:15px 0 0; float:none; }
-#nt-main-spec table													{ width:100%; border:0 none; border-collapse:collapse; margin:0 auto; padding:0; }
-#nt-main-spec table th, 
-#nt-main-spec table td											{ color:#010101; text-align:left; border-bottom:1px dotted #CCC; padding:5px 8px; }
-#nt-main-spec table th											{ color:#333; font-weight:400; width:40%; border-right:1px dotted #CCC;  }
-#nt-main-spec table tr:last-child th, 
-#nt-main-spec table tr:last-child td						{ border-bottom:0 none; }
-@media screen and (max-width:700px)					{ #nt-main-spec { width:100%; float:none; margin-left:0; } }
-@media screen and (max-width:500px)					{ #nt-main-spec table th { width:auto; } }
+#yuska-main-spec															{ width:40%; float:right; margin:0 0 0 20px; }
+#yuska-gall-right #yuska-main-spec									{ width:100%; margin:15px 0 0; float:none; }
+#yuska-main-spec table													{ width:100%; border:0 none; border-collapse:collapse; margin:0 auto; padding:0; }
+#yuska-main-spec table th, 
+#yuska-main-spec table td											{ color:#010101; text-align:left; border-bottom:1px dotted #CCC; padding:5px 8px; }
+#yuska-main-spec table th											{ color:#333; font-weight:400; width:40%; border-right:1px dotted #CCC;  }
+#yuska-main-spec table tr:last-child th, 
+#yuska-main-spec table tr:last-child td						{ border-bottom:0 none; }
+@media screen and (max-width:700px)					{ #yuska-main-spec { width:100%; float:none; margin-left:0; } }
+@media screen and (max-width:500px)					{ #yuska-main-spec table th { width:auto; } }
 
 
 
@@ -155,61 +155,61 @@ eBay Listing Template
 eBay Promotions Banners
 ---------------------------------------- */
 /* mini promotion text boxes */
-.nt-content .nt-prot													{ background:#010101 none; border:1px solid #FEBD16; border-width:0 0 3px;; }
-.nt-content .nt-prot .nt-tins									{ padding:10px 15px; text-align:left; }
-.nt-content .nt-prot .nt-icon									{ display:block; margin-right:15px; float:left; width:60px; height:60px; }
-.nt-content .nt-prot span											{ color:#FFF; font:500 23px/26px "Big Shoulders Text", sans-serif; display:block; float:left; padding-top:4px; }
-.nt-content .nt-prot span span								{ color:#FEBD16; float:none; padding-top:0; }
-.nt-content .nt-prot:hover a span							{ color:#FEBD16; }
+.yuska-content .yuska-prot													{ background:#010101 none; border:1px solid #FEBD16; border-width:0 0 3px;; }
+.yuska-content .yuska-prot .yuska-tins									{ padding:10px 15px; text-align:left; }
+.yuska-content .yuska-prot .yuska-icon									{ display:block; margin-right:15px; float:left; width:60px; height:60px; }
+.yuska-content .yuska-prot span											{ color:#FFF; font:500 23px/26px "Big Shoulders Text", sans-serif; display:block; float:left; padding-top:4px; }
+.yuska-content .yuska-prot span span								{ color:#FEBD16; float:none; padding-top:0; }
+.yuska-content .yuska-prot:hover a span							{ color:#FEBD16; }
 /* alternates */
-.nt-content .nt-prot.nt-alt										{ background-color:#010101; border-color:#FEBD16; }
-.nt-content .nt-prot.nt-alt span								{ color:#FFF; }
-.nt-content .nt-prot.nt-alt span span						{ color:#FEBD16; }
-.nt-content .nt-prot.nt-alt span span span				{ color:#010101; font:400 11px/14px "Open Sans",sans-serif; }
+.yuska-content .yuska-prot.yuska-alt										{ background-color:#010101; border-color:#FEBD16; }
+.yuska-content .yuska-prot.yuska-alt span								{ color:#FFF; }
+.yuska-content .yuska-prot.yuska-alt span span						{ color:#FEBD16; }
+.yuska-content .yuska-prot.yuska-alt span span span				{ color:#010101; font:400 11px/14px "Open Sans",sans-serif; }
 /* adjust inset contact banner */
-#nt-main #nt-main-mail.nt-prot								{ width:100%; max-width:500px; margin:10px auto 0; }
-#nt-main #nt-main-mail.nt-prot span						{ padding-top:8px; }
-#nt-main #nt-main-mail.nt-prot span:hover			{ color:#FEBD16; }
+#yuska-main #yuska-main-mail.yuska-prot								{ width:100%; max-width:500px; margin:10px auto 0; }
+#yuska-main #yuska-main-mail.yuska-prot span						{ padding-top:8px; }
+#yuska-main #yuska-main-mail.yuska-prot span:hover			{ color:#FEBD16; }
 /* mobile adjustments */
-@media screen and (max-width:1250px)					{ .nt-content .nt-prot span { font-size:20px; line-height:23px; padding-top:2px; } .nt-content .nt-prot .nt-icon { width:50px; height:50px; margin-right:10px; } }
-@media screen and (max-width:1130px)					{ .nt-content .nt-prot span { float:none; text-align:center; padding-top:0; } .nt-content .nt-prot .nt-icon { float:none; margin:0 auto 5px; } }
-@media screen and (max-width:700px)					{ .nt-content .nt-prot span { font-size:20px; line-height:23px; } }
-@media screen and (max-width:550px)					{ .nt-content .nt-prot { width:100%; } }
+@media screen and (max-width:1250px)					{ .yuska-content .yuska-prot span { font-size:20px; line-height:23px; padding-top:2px; } .yuska-content .yuska-prot .yuska-icon { width:50px; height:50px; margin-right:10px; } }
+@media screen and (max-width:1130px)					{ .yuska-content .yuska-prot span { float:none; text-align:center; padding-top:0; } .yuska-content .yuska-prot .yuska-icon { float:none; margin:0 auto 5px; } }
+@media screen and (max-width:700px)					{ .yuska-content .yuska-prot span { font-size:20px; line-height:23px; } }
+@media screen and (max-width:550px)					{ .yuska-content .yuska-prot { width:100%; } }
 
 /* featured products */
-#nt-feat																		{ padding-top:15px; }
-#nt-feat .nt-fp															{ background:#EEE none; border:1px solid #BBB; border-width:0 0 3px; }
-#nt-feat .nt-fp a .thumb											{ border:3px solid #FFF; }
-#nt-feat .nt-fp a .title												{ color:#010101; }
-#nt-feat .nt-fp a:hover .title									{ color:white; }
-#nt-feat .nt-fp a .price												{ color:#010101; }
-#nt-feat .nt-fp a:after												{ content:"DETAILS"; display:table; margin:15px auto 0; }
+#yuska-feat																		{ padding-top:15px; }
+#yuska-feat .yuska-fp															{ background:#EEE none; border:1px solid #BBB; border-width:0 0 3px; }
+#yuska-feat .yuska-fp a .thumb											{ border:3px solid #FFF; }
+#yuska-feat .yuska-fp a .title												{ color:#010101; }
+#yuska-feat .yuska-fp a:hover .title									{ color:white; }
+#yuska-feat .yuska-fp a .price												{ color:#010101; }
+#yuska-feat .yuska-fp a:after												{ content:"DETAILS"; display:table; margin:15px auto 0; }
 
 
 
 /* ---------------------------------------- 
 eBay Footer
 ---------------------------------------- */
-#nt-foot-wrap															{ background:#010101 none; border:1px solid #010101; border-width:0; } /* general */
-#nt-foot-main															{ background:transparent none; padding:20px 0; }
+#yuska-foot-wrap															{ background:#010101 none; border:1px solid #010101; border-width:0; } /* general */
+#yuska-foot-main															{ background:transparent none; padding:20px 0; }
 
 /* footer nav menu */
-#nt-foot-subm, #nt-foot-subm *								{ color:#FFF; font-weight: bolder; font-size:13px; line-height:16px; } /* footer nav menu */
-#nt-foot-subm a														{ color:#FFF; padding:0 12px; text-transform:uppercase; }
-#nt-foot-subm a:first-child										{ padding-left:0; }
-#nt-foot-subm a:last-child										{ padding-right:0; }
-#nt-foot-subm a:hover							    			{ color:#FFF; text-decoration:underline; }
-@media screen and (max-width:960px) 					{ #nt-foot-subm { display:none; } }
+#yuska-foot-subm, #yuska-foot-subm *								{ color:#FFF; font-weight: bolder; font-size:13px; line-height:16px; } /* footer nav menu */
+#yuska-foot-subm a														{ color:#FFF; padding:0 12px; text-transform:uppercase; }
+#yuska-foot-subm a:first-child										{ padding-left:0; }
+#yuska-foot-subm a:last-child										{ padding-right:0; }
+#yuska-foot-subm a:hover							    			{ color:#FFF; text-decoration:underline; }
+@media screen and (max-width:960px) 					{ #yuska-foot-subm { display:none; } }
  /* show navigation links on mobile */
-@media screen and (max-width:960px) 					{ #nt-foot-subm { display:block; } #nt-foot-subm a { text-align:center; display:block; padding:0 0 8px; padding-left:0; padding-right:0; } }
+@media screen and (max-width:960px) 					{ #yuska-foot-subm { display:block; } #yuska-foot-subm a { text-align:center; display:block; padding:0 0 8px; padding-left:0; padding-right:0; } }
 /* add divider lines */
-#nt-foot-subm a														{ border-right:1px solid #CCC; }
-#nt-foot-subm a:last-child										{ border-right:0 none; }
+#yuska-foot-subm a														{ border-right:1px solid #CCC; }
+#yuska-foot-subm a:last-child										{ border-right:0 none; }
 
-#nt-foot-copy, #nt-foot-copy *								{ color:#FFF; font-weight: bolder;font-size:13px; line-height:18px; } /* copyright line */
-#nt-foot-copy a														{ color:#FFF; font-weight: bolder;}
-#nt-foot-copy a:hover							    			{ color:#FFF; text-decoration:underline; }
+#yuska-foot-copy, #yuska-foot-copy *								{ color:#FFF; font-weight: bolder;font-size:13px; line-height:18px; } /* copyright line */
+#yuska-foot-copy a														{ color:#FFF; font-weight: bolder;}
+#yuska-foot-copy a:hover							    			{ color:#FFF; text-decoration:underline; }
 /* add divider icon */
-#nt-foot-copy .nt-copy-ninja									{ display:inline-block; padding-left:34px; position:relative; }
-#nt-foot-copy .nt-copy-ninja:before					{ content:url(images/nt-icon-bull.png); width:10px; height:18px; display:inline-block; text-align:center;  position:absolute; left:12px; top:0; }
-@media screen and (max-width:960px) 					{ #nt-foot-copy .nt-copy-ninja { padding-left:0; } #nt-foot-copy:before { content:url(images/nt-icon-bull.png); width:10px; height:18px; display:block; position:relative; left:0; top:0; text-align:center; margin:0 auto 15px; } #nt-foot-subm { padding-bottom:8px !important; } }
+#yuska-foot-copy .yuska-copy-yuska									{ display:inline-block; padding-left:34px; position:relative; }
+#yuska-foot-copy .yuska-copy-yuska:before					{ content:url(images/yuska-icon-bull.png); width:10px; height:18px; display:inline-block; text-align:center;  position:absolute; left:12px; top:0; }
+@media screen and (max-width:960px) 					{ #yuska-foot-copy .yuska-copy-yuska { padding-left:0; } #yuska-foot-copy:before { content:url(images/yuska-icon-bull.png); width:10px; height:18px; display:block; position:relative; left:0; top:0; text-align:center; margin:0 auto 15px; } #yuska-foot-subm { padding-bottom:8px !important; } }
