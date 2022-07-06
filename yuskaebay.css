@@ -6,12 +6,12 @@ eBay Global
 body																			{ margin:0 !important; padding:0 !important; }
 .nt-bg																			{ width:100%; }
 #ds_div .nt-bg															{ margin:0 0 20px; border:1px solid #DDD; }
-.nt-bg *																		{ margin:0; padding:0; vertical-align:top; max-width:100%; }
+.nt-bg *																		{ margin:0; padding:0; vertical-align: top; max-width:100%; }
 .nt-bg-02																	{ width:100%; max-width:100%; padding:0; display:block; }
-.nt-bg, .nt-bg-02, .nt-content									{ margin:0 auto; text-align:center; vertical-align:top; }
+.nt-bg, .nt-bg-02, .nt-content									{ margin:0 auto; text-align:center; vertical-align: top; }
 .nt-content, #nt-foot-cols		    							{ margin:0 auto; position:relative; }
 .nt-content																{ width:100%; padding:15px 0 10px; }
-.nt-content-width														{ width:100%; margin:0 auto; }
+.nt-content-width														{ width:100%; margin:0 auto;}
 .nt-content, .nt-content-width								{ max-width:1338px; }
 @media screen and (max-width:1358px) 					{ .nt-content, .nt-content-width { padding-left:10px; padding-right:10px; } }
 
@@ -105,7 +105,7 @@ ul									            									{ list-style-type:none; }
 /* header mobile dropdown menu */
 #nt-head-mnav															{ width:300px; max-width:300px; height:auto; margin:0 auto 15px; position:relative; clear:both; display:none; } /* mobile dropdown menu */
 @media screen and (max-width:400px)					{ #nt-head-mnav { max-width:90%; } }
-#nt-head-mnav .nt-mbox label									{ width:100%; position:relative; left:0; display:block; cursor:pointer; text-align:left; margin:0 auto; padding:0 8px; }
+#nt-head-mnav .nt-mbox label									{ width:100%; position:relative; left:0; display:block; cursor:pointer; text-align:center; margin:0 auto; padding:0 8px; }
 #nt-head-mnav .nt-mbox [type=checkbox]			{ display:none; }
 #nt-head-mnav .nt-mbox [type=checkbox] ~ label										{ background-position:right 6px center; background-repeat:no-repeat; padding-right:30px !important; }
 #nt-head-mnav .nt-mbox [type=checkbox]:checked ~ label						{  z-index:2; } /* tab hover effect */
@@ -301,7 +301,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B5892D', end
 
 #nt-head-wrap-01, #nt-head-wrap-02,
 #nt-head-wrap-03, #nt-head-wrap-04,
-#nt-foot-wrap															{ width:100%; clear:both; position:relative; margin:0 auto; }
+#nt-foot-wrap															{ width:100%; clear:both; position:relative;  margin:0 auto; }
 
 #nt-head-tnav a, #nt-head-mnav ul li a,
 #nt-head-menu a, #nt-head-whys img,
@@ -403,4 +403,3 @@ eBay Template
 [type=radio]:checked ~ .nt-tbar ~ .nt-ttrm			{ margin-bottom:1px; }
 [type=radio] ~ .nt-tbar												{ margin-bottom:1px; }
 [type=radio]:checked ~ .nt-tbar							{ /* margin-bottom:0; */ }
-
