@@ -1,100 +1,386 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="stylesheet" type="text/css" href="responsive.css">
-  <link rel="shortcut icon" href="favicon.ico" >
-  <!--     ┬ ┬┌─┐  ┌─┐┬─┐┌─┐        -->
-  <!--     │││├┤   ├─┤├┬┘├┤         -->
-  <!--     └┴┘└─┘  ┴ ┴┴└─└─┘        -->
-  <!--     ╔═╗╦═╗╔═╗╔═╗╔═╗╔╦╗╔═╗    -->
-  <!--     ╠═╝╠╦╝║ ║║ ╦╠═╣ ║ ║╣     -->
-  <!--     ╩  ╩╚═╚═╝╚═╝╩ ╩ ╩ ╚═╝    -->
-</head>
-<body>
-    <header>
-      <div class="container">
-        <div class="header-left">
-          <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-        </div>
-        <span class="fa fa-bars menu-icon"></span>
-        <div class="header-right">
-          <a href="#">Lessons</a>
-          <a href="#">Sign in</a>
-          <a href="#" class="login">Log in</a>
-        </div>
-      </div>
-    </header>
-    <div class="top-wrapper">
-      <div class="container">
-        <h1>LEARN TO CODE.</h1>
-        <h1>LEARN TO BE CREATIVE.</h1>
-        <p>Progate is a web service where you can learn programming online.</p>
-        <p>We offer you a fully equipped coding environment to get you started.</p>
-        <div class="btn-wrapper">
-          <a href="#" class="btn signup">Sign up with Email</a>
-          <p>or</p>
-          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Sign up with Facebook</a>
-          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Sign up with Twitter</a>
-        </div>
-      </div>
-    </div>
-    <div class="lesson-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2>Learn Where to Get Started!</h2>
-        </div>
-        <div class="lessons">
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/html.png">
-              <p>HTML & CSS</p>
+    <head>
+        <script>var descGaugeInfo = {descST:(new Date()).getTime()};
+        </script>
+<script type="text/javascript"> 
+		window.onerror = function(message, url, line) {
+			return true;
+		};
+	</script>
+	<script type="text/javascript">
+	try{
+		var jsonObj = {};
+		var hashParam = document.location.hash;
+		if(hashParam && hashParam.length > 0){
+			hashParam = decodeURI(hashParam.replace('#', ''));
+		}
+		if(hashParam && typeof(hashParam) === 'string'){
+			jsonObj = JSON.parse(hashParam);
+		}
+		if(jsonObj && jsonObj.jsUrl){
+			var jsUrl = jsonObj.jsUrl;
+			var script = document.createElement('script');
+			if(jsUrl.indexOf('//') != -1){
+				script.src = jsUrl;	
+			}else{
+				script.src = '//ir.ebaystatic.com/rs/v/'+jsUrl+'.js';
+			}
+			script.defer = true;
+			document.head.appendChild(script); 
+		}
+		if(jsonObj && jsonObj.title){
+			var title = jsonObj.title;
+			document.title = title;
+		}
+	}catch(e){
+		
+	}
+	</script>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link href="/yuskaebay.css" rel="stylesheet" type="text/css"> 
+<link href="/yuskaebay2.css" rel="stylesheet" type="text/css"> 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text:400,500,700&display=swap">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">  
+	<title>eBay</title>
+	</head>
+
+<div id="nt-template" class="nt-bg nt-2col"><div class="nt-bg-02 nt-shao">  
+
+<!-- beg header -->	 
+
+<div id="nt-head-wrap-01">
+    <div id="nt-head-wrap-02">
+        <div id="nt-head-02" class="nt-content-width"> 	
+        <div id="nt-head-logo" class="nt-proh nt-prol">
+            <a target="_blank" href="https://www.ebay.com/str/utechelectronic">
+                <img src="https://yuska9559.github.io/yuskacss/loggo.png" alt="Yuska Outlet" style= "width:130px" ></a>
+                </div> 	 	
+                <div id="nt-head-tnav"> 		
+                <a target="_blank" href="https://www.ebay.com/str/utechelectronic">
+                    <i class="fa fa-home"></i>Store Home</a> 		
+                    <a target="_blank" href="https://www.ebay.com/str/utechelectronic"><i class="fa fa-shopping-cart"></i>View Our Listings</a> 		
+                    <a target="_blank" href="https://contact.ebay.com/ws/eBayISAPI.dll?ContactUserNextGen&amp;recipient=u-tech24"><i class="fa fa-envelope"></i>Contact Us</a> 	
+                    </div>  	
+                    <div id="nt-head-mnav"> 		
+                    <div class="nt-mbox"><input type="checkbox" id="nt-mbont-01">
+                    <label for="nt-mbont-01">MENU</label> 			
+                    <div class="nt-mnav"> 				
+                    <h4>Store Categories</h4> 				
+                    <div id="nt-head-cats">
+                        <ul class="lev1"> 									
+                        <li><a target="_blank" href="">Tools &amp; Home Improvement</a></li> 										
+                        <li><a target="_blank" href="">Computers Accessories</a></li> 
+                        <li><a target="_blank" href="">Google Nest</a></li> 					
+                        <li><a target="_blank" href="">iPads  &amp; Tablets</a></li> 						
+                        </ul></div> 				
+                        <h4>Store Support</h4> 				
+                        <ul> 					
+                        <li><a target="_blank" href="https://www.ebay.com/str/utechelectronic">Store Home</a></li> 					
+                        <li><a target="_blank" href="https://www.ebay.com/str/utechelectronic">View Our Listings</a></li> 					 					                <li><a target="_blank" href="https://contact.ebay.com/ws/eBayISAPI.dll?ContactUserNextGen&amp;recipient=u-tech24">Contact Us</a></li> 				
+                        </ul> 			
+                        </div> 		
+                        </div> 	
+                        </div> 
+                        </div>
+                        </div>
+                        </div> 
+                        <!-- end header -->  
+                        
+                        <!-- beg left panel --> 
+                        
+                        <div class="nt-content">  
+                        <div id="nt-left"> 	
+                        <h4 id="nt-side-tbar-cats" class="nt-tbar"><div class="nt-tins">Store Categories</div></h4> 	
+                        <div id="nt-side-cats" class="nt-tbox"><div class="nt-tins"> 		<ul class="lev1"> 			
+                        <li><a target="_blank" href="">Tools &amp; Home Improvement</a></li> 			
+                        <li><a target="_blank" href="">Computers Accessories</a></li> 			
+                        <li><a target="_blank" href="">Google Nest</a></li> 
+                        <li><a target="_blank" href="">iPads  &amp; Tablets</a></li> 			
+                       </ul> 	
+                       </div></div>  	
+                       <div id="nt-side-ship" class="nt-prom nt-prot"><div class="nt-tins"> 		
+                       <img class="nt-icon" src="https://yuska9559.github.io/yuskacss/image4.png" alt="Fast Secure Shipping"> 		
+                       <span>Fast, Secure<span>Shipping</span></span> 	
+                       </div></div> 	 	
+                       <div id="nt-side-retu" class="nt-prom nt-prot nt-alt">
+                           <div class="nt-tins"> 		
+                           <img class="nt-icon" src="https://yuska9559.github.io/yuskacss/image3.png" alt="30 Day Returns"> 		
+                           <span>30 Day<span>Returns<span>*on select items</span></span></span> 	
+                           </div></div> 	 	
+                           <div id="nt-side-sati" class="nt-prom nt-prot"><div class="nt-tins"> 		
+                           <img class="nt-icon" src="https://yuska9559.github.io/yuskacss/image2.png" alt="Satisfaction Guaranteed"> 		
+                           <span>Satisfaction<span>Guaranteed</span></span> 	
+                           </div></div> 	 	
+                           <img src="https://yuska9559.github.io/yuskacss/img1.png" class="nt-prom" alt="We accept payments via PayPal and all major credit cards"> </div>
+                           <!-- end left panel --> 
+                           
+                            <!-- beg right panel --> 
+                            <div id="nt-main">  	
+                            <div id="nt-main-gall" class="nt-gbox">
+                                <div class="nt-tins">  	
+                                <!-- IMAGE GALLERY GOES HERE --> 		
+                                <div id="nt-temp-gall" class="nt-bttm nt-left"> 			
+                                <div id="nt-gall-float"><div id="nt-gall-main"> 
+                                
+                                <!-- img1 --> 
+                                <div id="mimg01"><input type="radio" id="img01" name="gallery" checked="">
+                                <div class="nt-cntr">
+                                <img src="https://s3-us-west-2.amazonaws.com/farapp/globalcellutionsdistributorsinc/public/product_images/598983.jpg" alt=""></div></div> 
+                                
+                                <!-- img2 --> 
+                                    <div id="mimg02"><input type="radio" id="img02" name="gallery">
+                                    <div class="nt-cntr">
+                                    <img src="https://s3-us-west-2.amazonaws.com/farapp/globalcellutionsdistributorsinc/public/product_images/434811.jpg" alt=""></div></div> 		
+                                    
+                                <!-- img3 --> 
+                                    <div id="mimg03"><input type="radio" id="img03" name="gallery">
+                                    <div class="nt-cntr">
+                                    <img src="https://s3-us-west-2.amazonaws.com/farapp/globalcellutionsdistributorsinc/public/product_images/434813.jpg" alt=""></div></div> 	
+                                    
+                                <!-- img4 --> 
+                                    <div id="mimg04"><input type="radio" id="img04" name="gallery">
+                                    <div class="nt-cntr">
+                                    <img src="https://s3-us-west-2.amazonaws.com/farapp/globalcellutionsdistributorsinc/public/product_images/434814.jpg" alt=""></div></div> 	
+                                        
+                                <!-- img5 --> 
+                                    <div id="mimg05"><input type="radio" id="img05" name="gallery">
+                                    <div class="nt-cntr">
+                                    <img src="" alt=""></div></div> 	
+                                        
+                                <!-- img6 --> 
+                                    <div id="mimg06"><input type="radio" id="img06" name="gallery">
+                                    <div class="nt-cntr">
+                                    <img src="" alt=""></div></div> 
+                                
+                                <!-- img7 --> 
+                                    <div id="mimg07"><input type="radio" id="img07" name="gallery">
+                                    <div class="nt-cntr">
+                                    <img src="" alt=""></div></div> 
+                                        
+                                <!-- img8 --> 
+                                    <div id="mimg08"><input type="radio" id="img08" name="gallery">
+                                    <div class="nt-cntr">
+                                    <img src="" alt=""></div></div> 	
+                                    
+                                <!-- img9 --> 
+                                    <div id="mimg09"><input type="radio" id="img09" name="gallery">
+                                    <div class="nt-cntr">
+                                    <img src="" alt=""></div></div> 		
+                                    
+                                <!-- img10 --> 
+                                    <div id="mimg10"><input type="radio" id="img10" name="gallery">
+                                    <div class="nt-cntr">
+                                    <img src="" alt=""></div></div> 		
+                                    
+                                <!-- img11 --> 
+                                    <div id="mimg11"><input type="radio" id="img11" name="gallery">
+                                    <div class="nt-cntr">
+                                    <img src="" alt=""></div></div> 	
+                                    
+                                <!-- img12 --> 
+                                    <div id="mimg12"><input type="radio" id="img12" name="gallery">
+                                    <div class="nt-cntr">
+                                    <img src="" alt="">
+                                    </div></div> 			
+                                    </div></div> 	
+                                    
+                                    <!-- icon -->
+                                    <div id="nt-gall-thmb"> 				
+                                    <h5><span></span> Click Thumbnails to Enlarge</h5> 		
+                                    
+                                    <!-- icon1 -->
+                                    <div id="simg01" class="nt-hold nt-hidehttps://s3-us-west-2.amazonaws.com/farapp/globalcellutionsdistributorsinc/public/product_images/598983.jpg">
+                                    <label for="img01"><div class="nt-cntr">
+                                    <img src="https://s3-us-west-2.amazonaws.com/farapp/globalcellutionsdistributorsinc/public/product_images/598983.jpg" alt=""></div></label></div> 	
+                                    
+                                    <!-- icon2 -->
+                                    <div id="simg02" class="nt-hold nt-hidehttps://s3-us-west-2.amazonaws.com/farapp/globalcellutionsdistributorsinc/public/product_images/434811.jpg">
+                                    <label for="img02"><div class="nt-cntr">
+                                    <img src="https://s3-us-west-2.amazonaws.com/farapp/globalcellutionsdistributorsinc/public/product_images/434811.jpg" alt=""></div></label></div> 	
+                                    
+                                    <!-- icon3 -->
+                                    <div id="simg03" class="nt-hold nt-hidehttps://s3-us-west-2.amazonaws.com/farapp/globalcellutionsdistributorsinc/public/product_images/434813.jpg">
+                                    <label for="img03"><div class="nt-cntr">
+                                    <img src="https://s3-us-west-2.amazonaws.com/farapp/globalcellutionsdistributorsinc/public/product_images/434813.jpg" alt=""></div></label></div> 		
+                                    
+                                    <!-- icon4 -->
+                                    <div id="simg04" class="nt-hold nt-hidehttps://s3-us-west-2.amazonaws.com/farapp/globalcellutionsdistributorsinc/public/product_images/434814.jpg">
+                                    <label for="img04"><div class="nt-cntr">
+                                    <img src="https://s3-us-west-2.amazonaws.com/farapp/globalcellutionsdistributorsinc/public/product_images/434814.jpg" alt=""></div></label></div> 		
+                                    
+                                   <!-- icon5 -->
+                                    <div id="simg05" class="nt-hold nt-hide">
+                                    <label for="img05"><div class="nt-cntr">
+                                    <img src="" alt=""></div></label></div> 
+                                    
+                                    <!-- icon6 -->
+                                    <div id="simg06" class="nt-hold nt-hide">
+                                    <label for="img06"><div class="nt-cntr">
+                                    <img src="" alt=""></div></label></div> 
+                                    
+                                    <!-- icon7 -->
+                                    <div id="simg07" class="nt-hold nt-hide">
+                                    <label for="img07"><div class="nt-cntr">
+                                    <img src="" alt=""></div></label></div> 	
+                                    
+                                    <!-- icon8 -->
+                                    <div id="simg08" class="nt-hold nt-hide">
+                                    <label for="img08"><div class="nt-cntr">
+                                    <img src="" alt=""></div></label></div> 
+                                    
+                                    <!-- icon9 -->
+                                    <div id="simg09" class="nt-hold nt-hide">
+                                    <label for="img09"><div class="nt-cntr">
+                                    <img src="" alt=""></div></label></div> 	
+                                    
+                                    <!-- icon10 -->
+                                    <div id="simg10" class="nt-hold nt-hide">
+                                    <label for="img10"><div class="nt-cntr">
+                                    <img src="" alt=""></div></label></div> 	
+                                    
+                                    <!-- icon11 -->
+                                    <div id="simg11" class="nt-hold nt-hide">
+                                    <label for="img11"><div class="nt-cntr">
+                                    <img src="" alt=""></div></label></div> 	
+                                    
+                                    <!-- icon12 -->
+                                    <div id="simg12" class="nt-hold nt-hide">
+                                    <label for="img12"><div class="nt-cntr">
+                                    <img src="" alt=""></div></label></div> 			
+                                    </div> 		
+                                    </div> 		 		
+                                    
+                                    
+                                    <div id="nt-gall-right"> 			
+                                    <div id="nt-main-desc"> 				
+                                    <h4 id="nt-main-tbar-desc" class="nt-tbar nt-alt"><div class="nt-tins">Product Description</div></h4> 				
+                                    <div class="nt-tins nt-text">
+                                          
+                                    <!-- LISTING TITLE Begins HERE -->
+                                    <h1>2 Pack JLab JBuds Air True Wireless Bluetooth Earbuds with Charging Case - Black</h1>
+                                    <!-- LISTING TITLE Ended-->
+                                    
+                                    <!-- LISTING DESCRIPTION Begins HERE -->
+                        Bluetooth 5.0 Enabled<br>A Class 1 Bluetooth 5.0 connection keeps you going for 3-4 hours in each earbud plus 10 extra hours of charge in the case, that’s about 14 hours of your favorite music or podcast. *Since launch the JBuds Air have included Bluetooth 5. The package wasn't updated in time for the launch so note that your package may say Bluetooth 4.2. Enjoy the upgraded Bluetooth 5.<br><br>Hassle-Free Connection<br>The JBuds Air automatically turn on and connect to each other once taken out of their charging case so you can keep going hassle-free.<br><br>Complete Packaging<br>Comes complete with sleek charging case, 3 sets of silicone gel tips, and 1 set of Cush Fins.<br><br>Customizable EQ3 Sound<br>You control the sound. Tune the JBuds Air sound to your personal preferences with JLab Signature, Balanced and Bass Boost modes – without an app.<br><br>Intuitive Controls<br>Control all your music and volume with a tap or two on the outside of the earbud. Utilize the built-in microphone to activate Siri**, Google Assistant, and other voice assistants, or take phone calls and keep GOing on the move.<br><br>Maximum Durability<br>An IP55 sweat resistance helps the earbuds hold up against moisture and dirt so you never have to worry during any hobby, travel, or workout. Extra eartips and Cush Fins help keep the comfort perfect and reliable for your everyday needs.<br><br>Travel-Friendly<br>Compact, but sturdy, the JBuds Air included charging case will fit in any bag or jacket pocket you’re taking on-the-GO with you. Lights on the outside will indicate how much power you have left before your next charge. 	
+                         <!-- LISTING DESCRIPTION Ends HERE -->
+                         
+                         
+                    <div id="nt-main-mail" class="nt-prom nt-prot">
+                    <div class="nt-tins"> 						
+                    <a target="_blank" href="https://contact.ebay.com/ws/eBayISAPI.dll?ContactUserNextGen&amp;recipient=u-tech24"> 							
+                    <img class="nt-icon" src="https://yuska9559.github.io/yuskacss/image5.png" alt="Contact Us"> 							
+                    <span>Questions about this item? <br>Click here to contact us! ▸</span></a> 					
+                    </div></div> 					 		
+                        </div> 			
+                        </div> 	
+                        </div> 		 	
+                        </div></div>  	
+                
+                <div id="nt-main-tabs"> 		
+                <div class="nt-ttab">
+                <input type="radio" id="nt-ttab-01" name="tab-group-1" checked="">
+                <label for="nt-ttab-01" class="nt-tbar">
+                <span class="nt-tins">Payment</span></label> 			
+                
+                <div class="nt-ttrm"><div class="nt-tbox"><div class="nt-tins nt-text">
+                    
+                <!-- TERMS 1 Begins HERE -->
+        We only accept payment through PayPal. We only ship to PayPal verified addresses. Please note that immediate payment is required in order to process your order and get it shipped out to you as soon as possible. Cancellations are processed as quickly as possible and we do our best to cancel each that comes in. If the order is already boxed up with a shipping label it may be difficult, especially during the holiday season.
+            <!-- TERMS 1 Ends HERE -->
+                 </div></div>
+                 </div></div> 		
+         
+         <div class="nt-ttab">
+             <input type="radio" id="nt-ttab-02" name="tab-group-1">
+             <label for="nt-ttab-02" class="nt-tbar"><span class="nt-tins">Shipping</span></label> 			
+             <div class="nt-ttrm">
+                 <div class="nt-tbox">
+                     <div class="nt-tins nt-text"> 				
+            <!-- TERMS 2 Begins HERE -->
+           We give free standard shipping on all orders and do our best to ship the orders out within 24 hours of receiving the payment on Monday-Thursday. The orders received after 3pm (CDT) on Fridays, and orders received on weekends are being shipped on Monday. Please remember holidays might affect our shipping policy depending on the courier holiday hours. We choose the courier based on distance, rates and speed with your convenience in mind.  We cannot ship large packages to P.O. box addresses, to Puerto Rico, Hawaii and Alaska. You may be contacted for additional information or verification if needed
+            <!-- TERMS 2 Ends HERE -->
+                </div></div>
+                </div></div> 		
+                
+            <div class="nt-ttab"><input type="radio" id="nt-ttab-03" name="tab-group-1">
+            <label for="nt-ttab-03" class="nt-tbar"><span class="nt-tins">Returns</span></label> 			
+            <div class="nt-ttrm"><div class="nt-tbox"><div class="nt-tins nt-text"> 
+            
+            <!-- TERMS 3 Begins HERE -->
+            If you change your mind about your purchase and don’t want the item anymore, we offer 30 days free returns. Item must be in the original condition as it was received. All the refunds will be issued only after matching the serial number with the one in our records. We are aware of all fraud cases and have all the item details in our records. If the item you bought is brand new and sealed, it is subject to a restocking fee when returned for any reason. A restocking fee up to 20% may be applied based on the condition of the returned item.  If an item is defective or does not match the listing description, you will be fully refunded. However, if you state in the return description that the product is defective/dead; but it is actually fully functioning, you will be charged for the return shipping label and refunded the rest. Please note: when the return package is received, it is video recorded how we open the product you packaged and fully test before issuing the refund.. 		
+            <!-- TERMS 3 Ends HERE -->
+            
+            
+            </div></div>
+            </div></div> 		
+            
+            <div class="nt-ttab">
+            <input type="radio" id="nt-ttab-04" name="tab-group-1">
+            <label for="nt-ttab-04" class="nt-tbar">
+            <span class="nt-tins">About Us</span></label> 			
+            <div class="nt-ttrm">
+            <div class="nt-tbox">
+            <div class="nt-tins nt-text"> 				
+            
+            <!-- TERMS 4 Begins HERE -->
+            Welcome to Yuska Outlet! We are an online retail store where you can find good quality authentic products for 40-60% off of regular MSRP! We offer consumer products across a variety of categories including: electronics, computer components, tools, autoparts, housewares (home security products) and clothing just to name a few. Every item is tested twice to their full extent before listing and before shipping to you! Authenticity of our products can be verified by providing the serial numbers to manufacturers. 
+
+Yuska Outlet embraces transparency as a core business value, to deliver a great shopping experience for you.  We are committed to honest business engagement and willing to become your trusted store where seller and buyers can foster a healthy shopping mentality. We do our best to set a reasonable and minimal price range that 100% match the description and condition of the products we sell 
+            <!-- TERMS 4 Ends HERE -->
+            </div></div>
+            </div></div> 		
+            
+            <div class="nt-ttab">
+            <input type="radio" id="nt-ttab-05" name="tab-group-1">
+            <label for="nt-ttab-05" class="nt-tbar">
+            <span class="nt-tins">Contact Us</span></label> 			
+            <div class="nt-ttrm"><div class="nt-tbox">
+            <div class="nt-tins nt-text"> 			
+            <!-- TERMS 5 Begins HERE -->
+            With our high volume sales, if we happen to make a mistake on your order, or you have any questions and need any assistance please send us a message through the eBay message system before leaving a poor review. We are always willing to make it right! 			
+            <!-- TERMS 5 Ends HERE -->
+            </div></div>
+            </div></div> 	
+            </div>  
+
+            
+            <!-- footer 
+            <a target="_blank" href="https://www.ebay.com/str/Pro-Distributing">
+            <img src="" id="nt-main-bann" class="nt-prom nt-nomo" alt="Shop Now"></a> 	picture location-->
+
+            <!-- footer <a target="_blank" href="https://www.ebay.com/str/Pro-Distributing">
+            <img src="https://ninjashosting.com/installs/p/prodistributing/ebay/images/nt-main-bann-mobi.jpg" id="nt-main-bann" class="nt-prom nt-pmob" alt="Shop Now"></a>  picture location-->
+            </div> 
             </div>
-            <p class="text-contents">Languages used to build and design the appearances of your websites. HTML adds the structure, and CSS styles it.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-              <p>jQuery</p>
-            </div>
-            <p class="text-contents">A fast, feature-rich and easy-to-use JavaScript library that handles animations and Ajax requests.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/ruby.png">
-              <p>Ruby</p>
-            </div>
-            <p class="text-contents">A dynamic, general-purpose language that is simple and productive. It is commonly used around the world to build web applications.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/php.png">
-              <p>PHP</p>
-            </div>
-            <p class="text-contents">An open source scripting language that can be embedded into HTML, and well suited for web development.</p>
-          </div>
-          <div class="clear"></div>
-        </div>
-      </div>
-    </div>
-    <div class="message-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2>Ready to become an awesome programmer?</h2>
-          <h3>Let's learn to code, learn to be creative!</h3>
-        </div>
-        <span class="btn message">Start Learning</span>
-      </div>
-    </div>
-    <footer>
-      <div class="container">
-        <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-        <p>Learn to code, learn to be creative.</p>
-      </div>
-    </footer>
-  </body>
+            <!-- end right panel -->
+            <!-- end content area -->  
+            
+            <!-- beg footer --> 
+            <div id="nt-foot-wrap"> 	
+            <div id="nt-foot-main">
+            <div class="nt-content-width nt-logo-right"> 		
+            <a target="_blank" href="https://www.ebay.com/str/utechelectronic">
+            <img id="nt-foot-logo" src="https://yuska9559.github.io/yuskacss/loggo.png" alt="Yuska Outlet eBay" style= "width:120px"></a> 		
+            
+            <div id="nt-foot-subm"> 			
+            <a target="_blank" href="https://www.ebay.com/str/utechelectronic">Store Home</a> 			
+            
+            <a target="_blank" href="https://www.ebay.com/str/utechelectronic">View Our Listings</a> 			
+            
+           	<a target="_blank" href="https://contact.ebay.com/ws/eBayISAPI.dll?ContactUserNextGen&amp;recipient=u-tech24">Contact Us</a> 		
+           	
+           	</div> 		<div id="nt-foot-copy"><p>Copyright © <span id="nt-copy-date"></span> <a target="_blank" href="https://www.ebay.com/str/utechelectronic">Yuska Outlet</a>. All rights reserved.
+           	</td>
+           	</tr>
+</tbody></table><span id="closeHtml"></span>
+                      
+	
+	
+	
+	
+	
+	
+	
 </html>
