@@ -10,7 +10,7 @@ eBay Global
 .nt-bg *                                     									{ font-family:"Open Sans", sans-serif; }
 p, a, li, table, form select											{ font-size:14px; line-height:20px; color:#010101; }
 a:link, a:visited, a:active										{ color:#010101; }
-a:hover							            								{ color:#F72020; }
+a:hover							            								{ color:white; }
 #nt-main h1																{ color:#333; font-size:20px; line-height:25px; font-weight:700; text-align:center; margin:0; padding:0 0 15px; }
 #nt-main #nt-main-desc h1										{ text-align:left; padding-top:10px; }
 #nt-main h1#nt-item-title										{ background:#FFF none; border:1px solid #CCC; margin:0 0 10px; padding:8px 15px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;  }
@@ -18,18 +18,18 @@ a:hover							            								{ color:#F72020; }
 
  /* title bars */
 .nt-tbar, .nt-tbar a, .nt-tbar span,
-.nt-tbar .nt-tins														{ color:#FFF; font-family:"Big Shoulders Text", sans-serif; font-size:20px; line-height:24px; font-weight:700; letter-spacing:0.05em; text-transform:uppercase; }
+.nt-tbar .nt-tins														{ color:#000000; font-family:"Big Shoulders Text", sans-serif; font-size:20px; line-height:24px; font-weight:700; letter-spacing:0.05em; text-transform:uppercase; }
 #nt-main .nt-tbar .nt-tins										{ text-align:center; } /* right column */
-.nt-tbar																		{ padding:8px 12px; background:#010101; border:1px solid #BBB; border-width:0 0 3px; }
-.nt-tbar.nt-alt, .nt-tbar.nt-alt .nt-tins					{ color:#FFF; }
-.nt-tbar.nt-alt															{ background-color:#F72020; border-color:#010101; } /*alternates */
+.nt-tbar																		{ padding:8px 12px; background:#FEBD17; border:1px solid #000000; border-width:0 0 3px; }
+.nt-tbar.nt-alt, .nt-tbar.nt-alt .nt-tins					{ color:#000000; }
+.nt-tbar.nt-alt															{ background-color:#FEBD17; border-color:#010101; } /*alternates */
 .nt-tbar.nt-alt2{ background-color:#777; border-color:#010101; } /*alternates */
 
 /* accordion bars */
-[type=radio] ~ .nt-tbar .nt-tins								{ color:#FFF; }
+[type=radio] ~ .nt-tbar .nt-tins								{ color:#000000; }
 [type=radio]:checked ~ .nt-tbar .nt-tins				{ color:#FFF; }
-[type=radio] ~ .nt-tbar												{ background-color:#010101; border-color:#BBB; }
-[type=radio]:checked ~ .nt-tbar							{ background-color:#F72020; border-color:#010101; }
+[type=radio] ~ .nt-tbar												{ background-color:#febd17; border-color:#FFF; }
+[type=radio]:checked ~ .nt-tbar							{ background-color:#000000; border-color:#010101; }
 [type=radio] ~ .nt-tbar:before								{ content:url(images/nt-icon-plus.png); float:right; position:relative; top:2px; }
 [type=radio]:checked ~ .nt-tbar:before				{ content:url(images/nt-icon-mins.png); }
 
@@ -62,11 +62,12 @@ eBay Header
 
 #nt-head-wrap-01 { 
 padding:10px 0; 
+/*
 background:#FEBD16;
 background:-moz-linear-gradient(-45deg, #FEBD16 0%, #FAFAFA 50%, #FEBD16 100%);
 background:-webkit-linear-gradient(-45deg, #FEBD16 0%,#FAFAFA 50%,#FEBD16 100%);
 background:linear-gradient(135deg, #FEBD16 0%,#FAFAFA 50%, #FEBD16 100%);
-filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#FEBD16', endColorstr='#FEBD16',GradientType=1 ); }
+filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#FEBD16', endColorstr='#FEBD16',GradientType=1 )*/; }
 
 #nt-head-wrap-02 { 
 background:#010101 none; 
@@ -76,8 +77,8 @@ border-width:0; }
 #nt-head-logo															{ margin:15px auto; } /* logo */
 @media screen and (max-width:1042px)					{ #nt-head-logo { margin:15px auto; } }
 
-#nt-head-tnav															{ height:20px; margin-top:26px; float:right; text-align:right; } /* top nav menu */
-#nt-head-tnav a														{ color:#BBB; font:400 14px/20px "Open Sans", sans-serif; text-transform:uppercase; display:inline-block; padding:0 15px; }
+#nt-head-tnav															{ height:20px; margin-top:37px; float:right; text-align:right; } /* top nav menu */
+#nt-head-tnav a														{ color:#FFF; font:400 14px/20px "Helvetica", sans-serif; font-weight: bolder; text-transform:uppercase; display:inline-block; padding:0 15px; }
 #nt-head-tnav a:hover											{ color:#FFF;  text-decoration:underline; }
 #nt-head-tnav a:first-child										{ padding-left:0; }
 #nt-head-tnav a:last-child										{ padding-right:0; }
@@ -91,10 +92,10 @@ border-width:0; }
 #nt-head-mnav .nt-mbox label,
 #nt-head-mnav .nt-mnav											{ background-color:#FFF; }
 /* font styling */
-#nt-head-mnav .nt-mbox label									{ color:#010101; font:400 14px/30px "Open Sans", sans-serif; }
-#nt-head-mnav .nt-mnav h4									{ color:#F72020; font:700 14px/30px "Open Sans", sans-serif; padding:0 8px }
-#nt-head-mnav .nt-mnav ul li a								{ color:#010101; font:400 13px/22px "Open Sans", sans-serif; padding:2px 8px; }
-#nt-head-mnav .nt-mnav ul li a:hover					{ color:#F72020; }
+#nt-head-mnav .nt-mbox label									{ color:#010101; font:400 14px/30px "Helvetica", sans-serif; }
+#nt-head-mnav .nt-mnav h4									{ color:#000000; font:700 14px/30px "Helvetica", sans-serif; padding:0 8px }
+#nt-head-mnav .nt-mnav ul li a								{ color:#1A1A1A; font:400 13px/22px "Open Sans", sans-serif; padding:2px 8px; }
+#nt-head-mnav .nt-mnav ul li a:hover					{ color:#000000; font-weight: bolder; }
 /* add icons */
 #nt-head-mnav .nt-mnav ul li a								{ background-image:url(images/nt-icon-lev1.png); background-position:8px 7px; background-repeat:no-repeat; padding-left:22px; }
 #nt-head-mnav .nt-mnav ul li a:hover					{ background-image:url(images/nt-icon-lev1h.png); background-color:#EEE; }
@@ -110,8 +111,12 @@ eBay Left Panel
 ---------------------------------------- */
 /* categories nav */
 #nt-left .lev1 li															{ padding-top:2px; }
-#nt-left .lev1 li a														{ color:#010101; font-size:14px; line-height:17px; font-weight:600; text-transform:uppercase; background:#EEE url(images/nt-icon-lev1.png) 10px 10px no-repeat; padding:7px 10px 7px 24px; }
-#nt-left .lev1 li a:hover											{ color:#F72020; background-color:#FFF; background-image:url(images/nt-icon-lev1h.png); }
+#nt-left .lev1 li a														{ 
+    color:#010101; font-size:14px; line-height:17px; font-weight:600; text-transform:uppercase; 
+    background:#FAF9F6 url(images/nt-icon-lev1.png) 10px 10px no-repeat; padding:7px 10px 7px 24px; 
+    }
+    
+#nt-left .lev1 li a:hover											{ color: #010101; font-weight: bolder; background-color:#FFF; background-image:url(images/nt-icon-lev1h.png); }
 #nt-left .lev1 li a:after												{ color:#010101 !important; font-size:14px !important; line-height:17px !important; padding:7px 10px 7px 24px; display:block; }
 #nt-left .lev1 li a:hover:after									{ color:#F72020 !important; }
 
@@ -127,9 +132,9 @@ eBay Listing Template
 /* product image gallery */
 #nt-temp-gall #nt-gall-main										{ border:1px solid #CCC; }
 #nt-temp-gall #nt-gall-main img								{ border:10px solid #FFF; }
-#nt-temp-gall #nt-gall-thmb h5								{ color:#F72020; }
+#nt-temp-gall #nt-gall-thmb h5								{ color:#010101; font-weight: bolder; }
 #nt-temp-gall #nt-gall-thmb .nt-hold						{ border:1px solid #CCC; }
-#nt-temp-gall #nt-gall-thmb .nt-hold:hover			{ border:1px solid #F72020; }
+#nt-temp-gall #nt-gall-thmb .nt-hold:hover			{ border:1px solid #febd17; }
 #nt-temp-gall #nt-gall-thmb h5 span						{ background-image:url(images/nt-icon-gall.png) }
 
  /* product specifications table */
@@ -150,21 +155,21 @@ eBay Listing Template
 eBay Promotions Banners
 ---------------------------------------- */
 /* mini promotion text boxes */
-.nt-content .nt-prot													{ background:#EEE none; border:1px solid #BBB; border-width:0 0 3px;; }
+.nt-content .nt-prot													{ background:#010101 none; border:1px solid #FEBD16; border-width:0 0 3px;; }
 .nt-content .nt-prot .nt-tins									{ padding:10px 15px; text-align:left; }
 .nt-content .nt-prot .nt-icon									{ display:block; margin-right:15px; float:left; width:60px; height:60px; }
-.nt-content .nt-prot span											{ color:#010101; font:500 23px/26px "Big Shoulders Text", sans-serif; display:block; float:left; padding-top:4px; }
-.nt-content .nt-prot span span								{ color:#F72020; float:none; padding-top:0; }
-.nt-content .nt-prot:hover a span							{ color:#F72020; }
+.nt-content .nt-prot span											{ color:#FFF; font:500 23px/26px "Big Shoulders Text", sans-serif; display:block; float:left; padding-top:4px; }
+.nt-content .nt-prot span span								{ color:#FEBD16; float:none; padding-top:0; }
+.nt-content .nt-prot:hover a span							{ color:#FEBD16; }
 /* alternates */
-.nt-content .nt-prot.nt-alt										{ background-color:#AAA; border-color:#010101; }
-.nt-content .nt-prot.nt-alt span								{ color:#010101; }
-.nt-content .nt-prot.nt-alt span span						{ color:#F72020; }
+.nt-content .nt-prot.nt-alt										{ background-color:#010101; border-color:#FEBD16; }
+.nt-content .nt-prot.nt-alt span								{ color:#FFF; }
+.nt-content .nt-prot.nt-alt span span						{ color:#FEBD16; }
 .nt-content .nt-prot.nt-alt span span span				{ color:#010101; font:400 11px/14px "Open Sans",sans-serif; }
 /* adjust inset contact banner */
 #nt-main #nt-main-mail.nt-prot								{ width:100%; max-width:500px; margin:10px auto 0; }
 #nt-main #nt-main-mail.nt-prot span						{ padding-top:8px; }
-#nt-main #nt-main-mail.nt-prot span:hover			{ color:#F72020; }
+#nt-main #nt-main-mail.nt-prot span:hover			{ color:#FEBD16; }
 /* mobile adjustments */
 @media screen and (max-width:1250px)					{ .nt-content .nt-prot span { font-size:20px; line-height:23px; padding-top:2px; } .nt-content .nt-prot .nt-icon { width:50px; height:50px; margin-right:10px; } }
 @media screen and (max-width:1130px)					{ .nt-content .nt-prot span { float:none; text-align:center; padding-top:0; } .nt-content .nt-prot .nt-icon { float:none; margin:0 auto 5px; } }
@@ -176,7 +181,7 @@ eBay Promotions Banners
 #nt-feat .nt-fp															{ background:#EEE none; border:1px solid #BBB; border-width:0 0 3px; }
 #nt-feat .nt-fp a .thumb											{ border:3px solid #FFF; }
 #nt-feat .nt-fp a .title												{ color:#010101; }
-#nt-feat .nt-fp a:hover .title									{ color:#F72020; }
+#nt-feat .nt-fp a:hover .title									{ color:white; }
 #nt-feat .nt-fp a .price												{ color:#010101; }
 #nt-feat .nt-fp a:after												{ content:"DETAILS"; display:table; margin:15px auto 0; }
 
@@ -185,12 +190,12 @@ eBay Promotions Banners
 /* ---------------------------------------- 
 eBay Footer
 ---------------------------------------- */
-#nt-foot-wrap															{ background:#010101 none; border:1px solid #F72020; border-width:0; } /* general */
+#nt-foot-wrap															{ background:#010101 none; border:1px solid #010101; border-width:0; } /* general */
 #nt-foot-main															{ background:transparent none; padding:20px 0; }
 
 /* footer nav menu */
-#nt-foot-subm, #nt-foot-subm *								{ color:#BBB; font-size:13px; line-height:16px; } /* footer nav menu */
-#nt-foot-subm a														{ color:#BBB; padding:0 12px; text-transform:uppercase; }
+#nt-foot-subm, #nt-foot-subm *								{ color:#FFF; font-weight: bolder; font-size:13px; line-height:16px; } /* footer nav menu */
+#nt-foot-subm a														{ color:#FFF; padding:0 12px; text-transform:uppercase; }
 #nt-foot-subm a:first-child										{ padding-left:0; }
 #nt-foot-subm a:last-child										{ padding-right:0; }
 #nt-foot-subm a:hover							    			{ color:#FFF; text-decoration:underline; }
@@ -201,8 +206,8 @@ eBay Footer
 #nt-foot-subm a														{ border-right:1px solid #CCC; }
 #nt-foot-subm a:last-child										{ border-right:0 none; }
 
-#nt-foot-copy, #nt-foot-copy *								{ color:#BBB; font-size:13px; line-height:18px; } /* copyright line */
-#nt-foot-copy a														{ color:#BBB; }
+#nt-foot-copy, #nt-foot-copy *								{ color:#FFF; font-weight: bolder;font-size:13px; line-height:18px; } /* copyright line */
+#nt-foot-copy a														{ color:#FFF; font-weight: bolder;}
 #nt-foot-copy a:hover							    			{ color:#FFF; text-decoration:underline; }
 /* add divider icon */
 #nt-foot-copy .nt-copy-ninja									{ display:inline-block; padding-left:34px; position:relative; }
