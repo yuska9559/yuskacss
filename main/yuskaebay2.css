@@ -30,8 +30,8 @@ a:hover							            								{ color:white; }
 [type=radio]:checked ~ .yuska-tbar .yuska-tins				{ color:#FFF; }
 [type=radio] ~ .yuska-tbar												{ background-color:#febd17; border-color:#FFF; }
 [type=radio]:checked ~ .yuska-tbar							{ background-color:#000000; border-color:#010101; }
-[type=radio] ~ .yuska-tbar:before								{ content:url(images/yuska-icon-plus.png); float:right; position:relative; top:2px; }
-[type=radio]:checked ~ .yuska-tbar:before				{ content:url(images/yuska-icon-mins.png); }
+[type=radio] ~ .yuska-tbar:before								{ content:url(https://yuska9559.github.io/yuskacss/yuska-icon.png); float:right; position:relative; top:2px; }
+[type=radio]:checked ~ .yuska-tbar:before				{ content:url(https://yuska9559.github.io/yuskacss/yuska-minus.png; }
 
 /* text boxes */
 .yuska-tbox																		{ background:#FFF none; } /* text box with title bar */
