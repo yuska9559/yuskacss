@@ -205,6 +205,25 @@ eBay Footer
 #yuska-foot-subm a														{ border-right:1px solid #CCC; }
 #yuska-foot-subm a:last-child										{ border-right:0 none; }
 
+        .yuska-button {
+    width: 7em;
+    height: 4ex;
+    background-color: #FEBD16;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+
+}
+
+.jyuska-button:hover {
+    background-color: black;
+}
+
+
+
+
 #yuska-foot-copy, #yuska-foot-copy *								{ color:#FFF; font-weight: bolder;font-size:13px; line-height:18px; } /* copyright line */
 #yuska-foot-copy a														{ color:#FFF; font-weight: bolder;}
 #yuska-foot-copy a:hover							    			{ color:#FFF; text-decoration:underline; }
